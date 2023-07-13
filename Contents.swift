@@ -6,7 +6,7 @@ PlaygroundPage.current.needsIndefiniteExecution = true
 class Alarm {
     var timer: Timer?
     var count: Int = 0
-    var limit: Int = 5
+    let limit: Int = 5
     
     func start() { //スタート
         timer = Timer.scheduledTimer(
