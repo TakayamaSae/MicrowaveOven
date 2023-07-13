@@ -2,7 +2,6 @@ import Foundation
 import PlaygroundSupport
 PlaygroundPage.current.needsIndefiniteExecution = true
 
-
 class Alarm {
     var timer: Timer?
     var count: Int = 0
