@@ -8,6 +8,7 @@ class Alarm {
     let limit: Int = 5
     
     func start() { //スタート
+        print("スタートボタンを押す")
         timer = Timer.scheduledTimer(
             timeInterval: 1, // タイマーの実行間隔を指定(単位はn秒)
             target: self, // ここは「self」でOK
